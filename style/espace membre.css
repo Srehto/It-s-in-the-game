@@ -1,0 +1,183 @@
+#corps
+{
+	padding-bottom: 86px;
+	text-align : center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#espace
+{
+	text-align : center;
+	background-image : url("images/deco_espace_membres.png");
+}
+
+#menu
+{
+	display : block;
+	margin-bottom : 50px;
+	text-align : center;
+}
+
+#icones
+{
+	display : inline-block;
+	min-width : 400px;
+	vertical-align : bottom;
+}
+
+#presentation
+{
+	display : inline-block;
+	width : 300px;
+	margin : auto 15% auto auto;
+}
+
+#presentation p
+{
+	display : inline-block;
+	padding : 10px;
+}
+
+#pseudo
+{
+	font-size : 30px;
+	color : white;
+	background-color : #e91e63;
+	border-radius : 5px;
+}
+
+#date
+{
+	font-size : 18px;
+	color : #e91e63;
+}
+
+.item_menu
+{
+	display : inline-block;
+	width : 100px;
+	margin : auto auto auto 10px;
+	vertical-align : bottom;
+	border-radius : 5px;
+	border : 2px solid #e91e63;
+}
+
+.item_menu p
+{
+	font-size : 18px;
+	color : #e91e63;
+	margin : 5px;
+}
+
+.item_menu:hover
+{
+	background-color : #880e4f;
+	-webkit-transition : background-color 0.5s ease;
+	-moz-transition : background-color 0.5s ease;
+	-ms-transition : background-color 0.5s ease;
+	-o-transition : background-color 0.5s ease;
+}
+
+.bloc
+{
+	display : inline-block;
+	vertical-align : top;
+	width : 350px;
+	height : 350px;
+	padding : 10px;
+	margin : 10px 50px 10px 50px;
+	text-align : center;
+	background-color : white;
+}
+
+.bloc h2
+{
+	display : block;
+	font-size : 24px;
+	color : #e91e63;
+}
+
+.bloc p
+{
+	display : block;
+	font-size : 24px;
+	color : black;
+}
+
+#avatar
+{
+	width : 150px;
+	height : 150px;
+	border-radius : 10px;
+}
+
+.bloc img
+{
+	vertical-align : top;
+	margin-bottom : 10px;
+}
+
+fieldset
+{
+	border : none;
+}
+
+.champs
+{
+	display : inline-block;
+	text-align : left;
+}
+
+label
+{
+	display : block;
+	font-family : "Times new roman";
+	font-size : 12px;
+	color : gray;
+}
+
+.avertissement
+{
+	color : red;
+	font-size : 14px;
+}
+
+.succes
+{
+	color : green;
+	font-size : 14px;
+}
+
+#fichier
+{
+	width : 100%;
+	height : 24px;
+	margin-bottom: 10px;
+	font-size : 16px;
+}
+
+#envoyer
+{
+	margin : 20px auto auto auto;
+	width : 100px;
+	height : 30px;
+	border-radius : 5px;
+	color : white;
+	background-color : #e91e63;
+	border : none;
+}
+
+#envoyer:hover
+{
+	background-color : #e91e63;
+}
+
+#sep
+{
+	width : 100%;
+	height : 1px;
+	background-color : #e91e62;
+}

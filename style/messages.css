@@ -1,0 +1,60 @@
+#corps
+{
+	text-align : center;
+}
+
+#sortable
+{
+	display : inline-block;
+	width : 500px;
+	padding : 10px;
+	list-style-type : none;
+}
+
+.message
+{
+	display : block;
+	width : 100%;
+	margin : 5px;
+	padding : 10px;
+	border-radius : 3px;
+	border : 2px solid #880e4f;
+	background-color : white;
+}
+
+.en-tete_mess
+{
+	display : block;
+	text-align : left;
+	border-bottom : 1px solid #880e4f;
+}
+
+.pseudo
+{
+	margin-right : 20px;
+	font-family: "Bad Script";
+	font-size : 26px;
+	color : #880e4f;
+}
+
+.body_mess
+{
+	display : block;
+	margin-top : 10px;
+	text-align : left;
+}
+
+.objet
+{
+	display : block;
+	margin-bottom : 10px;
+	font-size : 22px;
+	font-weight : bold;
+	color : #880e4f;
+}
+
+.contenu
+{
+	margin-left : 20px;
+	font-size : 20px;
+}

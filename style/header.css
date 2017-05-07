@@ -1,0 +1,94 @@
+/**********************************************************************************************************************************************************/
+/****************************************************************** HEADER ********************************************************************************/
+/**********************************************************************************************************************************************************/
+
+header
+{
+	position : fixed;
+	width : 100%;
+	z-index : 100;
+	top : 0;
+	box-shadow : 0 2px 10px 0 black;
+	background-color: white;
+}
+
+header #titre
+{
+	font-family: "Bad Script";
+	font-size: 42px;
+	font-style: italic;
+	color : #e91e62;
+}
+
+/*************************************************************** BANNIERE **********************************************************************/
+#banniere
+{
+	height : 100px;
+	background-color : white;
+	border-bottom: 3px solid #880e4f;
+}
+
+#banniere img
+{
+	display : inline-block;
+	vertical-align : top;
+	padding : 12px 0 13px 10px;
+	border : none;
+}
+
+#lien_accueil
+{
+	height : 20px;
+}
+
+
+
+/*************************************************************************************************************************************************/
+/*************************************************************** SPEDDBARRE **********************************************************************/
+/*************************************************************************************************************************************************/
+
+#menu-speedbarre
+{
+	margin : 0;
+	text-align : center;
+	list-style-type : none;
+	
+	top : 0;
+	width : 100%;
+	left : 0;
+	z-index : 1;
+}
+
+.sous-menu-speedbarre
+{
+	position : absolute;
+	overflow : hidden;
+	background-color : #880e4f;
+}
+
+.sous-menu-speedbarre a
+{
+	position : relative;
+	font-size : 16px;
+	color : white;
+}
+
+#speedbarre > #menu-speedbarre li
+{
+	position : relative;
+}
+
+#jeux + ul li a:hover
+{
+	text-shadow : 0px 0px 10px #ffffff;
+}
+
+#support + ul li a:hover
+{
+	text-shadow : 0px 0px 10px #ffffff;
+}
+
+#plus + ul li a:hover
+{
+	text-shadow : 0px 0px 10px #ffffff;
+}

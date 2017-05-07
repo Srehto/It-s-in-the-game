@@ -1,0 +1,30 @@
+body
+{
+	width : 100%;
+	margin : 0;
+	background-color : white;
+}
+
+body a
+{
+	text-decoration : none;
+}
+
+#corps
+{
+	min-height : 633px;
+	padding-bottom : 203px;
+	overflow : hidden;
+	text-align : center;
+	background-color : white;
+}
+
+#corps em, h1, h2, h3, p, a
+{
+	text-align : center;
+}
+
+img
+{
+	max-width : 100%;
+}

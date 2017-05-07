@@ -1,0 +1,45 @@
+#corps
+{
+	padding : 0;
+	background-image : url("images/fonds/plan.png");
+}
+
+#fond
+{
+	padding-top : 200px;
+	padding-bottom : 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#canvas
+{
+	width : 500px;
+	margin : 120px auto 0 auto;
+}
+
+#titre_plan
+{
+	font-size: 30px;
+	color : white;
+}
+
+#plan
+{
+	text-align : left;
+}
+
+.rubrique
+{
+	color : #880e4f;
+}
+
+li
+{
+	color : white;
+}
+
+li a
+{
+	font-size: 25px;
+	color : white;
+}

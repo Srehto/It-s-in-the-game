@@ -1,0 +1,66 @@
+#titre
+{
+	color : #e91e62;
+	font-size : 30px;
+}
+
+#fond
+{
+	padding : 10px;
+	width : 300px;
+	max-height : 200px;
+	background-color : rgb(136, 14, 79);
+	cursor : pointer;
+}
+
+#indication
+{
+	color : #e91e62;
+	font-size: 16px;
+}
+
+#ombre
+{
+	display : none;
+	position : fixed;
+	top : 0;
+	left : 0;
+	z-index : 0;
+	width : 100%;
+	height : 100%;
+	background-color : rgba(0, 0, 0, 0.6);
+}
+
+#box
+{
+	display : none;
+	position : fixed;
+	padding : 10px;
+	top : 20%;
+	left : 20%;
+	z-index : 1;
+	width : 60%;
+	height : 60%;
+	background-color : white;
+	overflow : auto;
+	text-align : center;
+}
+
+.image
+{
+	display : inline-block;
+	width : 300px;
+	padding : 10px;
+	cursor : pointer;
+}
+
+#box form
+{
+	width : 100%;
+	text-align : right;
+}
+
+#valider
+{
+	position : absolute fixed;
+}

@@ -1,0 +1,67 @@
+body
+{
+	margin : 0;
+}
+
+#corps
+{
+	min-height: 777px;
+}
+
+#menu
+{
+	display : block;
+	width : 100%;
+	padding : 20px 0 20px 0;
+	text-align : center;
+	border-bottom : 1px solid #880e4f;
+}
+
+#retour
+{
+	position : absolute;
+	left : 0;
+}
+
+.rubrique
+{
+	margin : 0 30px 0 30px;
+	color : #880e4f;
+	text-decoration : none;
+	font-size: 26px;
+	font-family: "Bad Script";
+}
+
+.rubrique:hover
+{
+	text-decoration : underline;
+}
+
+#corps
+{
+	padding-top : 50px;
+	padding-bottom : 50px;
+	text-align : center;
+	background-size: cover;
+}
+
+#boite
+{
+	display : inline-block;
+	width : 60%;
+	padding : 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#info_del
+{
+	color : red;
+	font-size : 32px;
+	margin-bottom : 10px;
+}
+
+#explications
+{
+	color : #880e4f;
+	font-size: 28px;
+}

@@ -1,0 +1,125 @@
+#banniere
+{
+	height : 0;
+}
+
+/*************************************************************************************************************************************************/
+/*************************************************************** SPEEDBARRE **********************************************************************/
+/*************************************************************************************************************************************************/
+#speedbarre
+{
+	position : absolute;
+	width : 250px;
+	height : 1000px;
+	right : -252px;
+	margin-top : -17px;
+	background-color : rgba(50, 50, 50, 0.7);
+	transition: 1s right 0.1s;
+}
+
+#speedbarre:hover /* Affiche la speedbarre */
+{
+	right : 0;
+}
+
+#speedbarre li
+{
+	display : block;
+	width : 250px;
+}
+
+.lien_principal
+{	
+	display : block;
+	height : 100%;
+	padding : 10px; /* Défini le padding autour de TOUS les liens de la speedbarre, ce qui influe sur sa taille */
+	text-decoration : none;
+	color : #e91e62;
+	text-align : left;
+	font-family: "Bad Script";
+	font-size : 16px;
+}
+.lien_principal:hover
+{
+	font-weight : bold; /* Met le lien en gras pour donner l'impression que ça brille encore plus */
+	color : white;  /*change la couleur du lien pour la brillance */
+}
+
+
+/* sous menu */
+.sous-menu-speedbarre
+{
+	display : block;
+	position : absolute;
+	width : 150px;
+	max-width : 0px;
+
+	right : 290px;
+	top : 0;
+	padding : 0;
+	
+	overflow : hidden;
+	border-right : 0;
+	background-color : rgba(50, 50, 50, 0.7);
+
+	transition: 1s max-width 0.1s;
+}
+
+.sous-menu-speedbarre li /* Liens des sous-menu */
+{
+	width : 100%;
+	padding : 10px;
+	vertical-align : middle;
+	text-align: left;
+}
+
+.liste_principale:hover .sous-menu-speedbarre
+{
+	max-width : 200px; /* Fait apparaître les sous-menus */
+}
+
+#speedbarre a:active
+{
+	color : rgb(242, 185, 96);
+	text-shadow : none;
+}
+
+.compty:hover
+{
+	color : rgb(133, 167, 89);
+}
+
+.listy:hover
+{
+	color : rgb(164, 55, 58);
+}
+
+#aggrip-speedbarre
+{
+	display : inline-block;
+	position : relative;
+	left : -44px;
+	width : 32px;
+	top : 30px;
+	cursor : pointer;
+}
+
+#menu-footer
+{
+	position : fixed;
+	bottom : 10px;
+	min-width: 200px;
+}
+
+#menu-footer a
+{
+	display : block;
+	margin : 5px;
+	text-align: left;
+	color : white;
+}
+
+#menu-footer a:hover
+{
+	text-decoration: underline;
+}

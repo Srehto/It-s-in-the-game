@@ -1,0 +1,92 @@
+
+#bouton_menu /* Bouton servant à afficher le menu quand la fenêtre est réduite */
+{
+	display : none;
+}
+
+#menu_connexion
+{
+	display : inline-block;
+	position : absolute;
+	width : 300px; /* Pour pas que le menu se déforme lorsqu'on rétrécie la fenêtre */
+	height : 100px;
+	top : 0;
+	right : 50px;
+}
+
+#cadre
+{
+	display : inline-block;
+	width : 90px;
+	height : 90px;
+	margin-top : 5px;
+	background-color : #880E4F;
+	border-radius : 50px;
+	overflow : hidden;
+	text-align : center;
+}
+
+#mini_avatar
+{
+	width : 92px;
+	height : 92px;
+	margin-top : -12px;
+	margin-left : -10px;
+}
+
+#separation
+{
+	display : inline-block;
+	vertical-align : top;
+	width : 1px;
+	height : 70px;
+	margin : 15px;
+	background-image: linear-gradient(rgba(136, 14, 79, 0), rgb(136, 14, 79) 50%, rgb(136, 14, 79) 50%, rgba(136, 14, 79, 0));
+}
+
+#liens
+{
+	display : inline-block;
+	vertical-align : top;
+	margin-top : 15px;
+}
+
+#menu_connexion a
+{
+	display : block;
+	margin : 5px 0 5px 0;
+	font-size : 18px;
+}
+
+/***** Quand l'utilisateur n'est pas connecté *****/
+#bouton_haut
+{
+	color : rgb(136, 14, 79);
+}
+#bouton_haut:hover
+{
+	color : #e91e62;
+}
+#bouton_haut:active
+{
+	color : black;
+}
+
+#bouton_bas
+{
+	padding : 7px 20px 7px 20px;
+	border-radius : 5px;
+	color : white;
+	background-color : rgb(136, 14, 79);
+}
+#bouton_bas:hover
+{
+	text-shadow : 0px 0px 7px #ffffff;
+	text-decoration : none;
+	background-color : #e91e62;
+}
+#bouton_bas:active
+{
+	color : rgb(242, 185, 96);
+	text-shadow : none;
+}

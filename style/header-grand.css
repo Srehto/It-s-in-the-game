@@ -1,0 +1,87 @@
+/*************************************************************************************************************************************************/
+/*************************************************************** SPEEDBARRE **********************************************************************/
+/*************************************************************************************************************************************************/
+#speedbarre
+{
+	display : inline-block;
+	min-width : 750px;
+	margin-left : 27%;
+	vertical-align : bottom;
+}
+
+#speedbarre li
+{
+	display : inline-block;
+}
+
+.lien_principal
+{
+	display : inline;
+	width : 120px;
+	padding : 20px;
+	text-decoration : none;
+	color : #880e4f;
+	font-size : 22px;
+	font-family: "Bad Script";
+}
+
+.lien_principal:hover
+{
+	font-weight : bold; /* Met le lien en gras pour donner l'impression que ça brille encore plus */
+	text-shadow : 0px 0px 7px #ffffff; /* Effet de brillance */
+}
+
+/* Liste principale */
+#speedbarre #menu-speedbarre li a
+{
+	display : inline-block;
+	font-family: "Bad Script";
+}
+
+
+/* sous menu */
+.sous-menu-speedbarre
+{
+	left : -1500px;
+	width : 4000px;
+	padding : 0;
+	margin : 0 5px 0 5px;
+	
+	max-height : 0px; /* Pour masquer les sous-menu */
+	transition: 1s max-height;
+}
+
+.sous-menu-speedbarre a
+{
+	display : inline-block;
+	left : -485px;
+	width : 100%;
+	padding : 10px 0 10px 0;
+	margin : 0 50px 0 50px;
+}
+
+#speedbarre > #menu-speedbarre li
+{
+	position : relative;
+}
+
+#speedbarre #menu-speedbarre li:hover ul
+{
+	max-height : 300px; /* Fait apparaître les sous-menus */
+}
+
+#speedbarre a:active
+{
+	color : black;
+}
+
+#aggrip-speedbarre
+{
+	position : absolute;
+	right : -50px;
+}
+
+#menu-footer
+{
+	display : none;
+}

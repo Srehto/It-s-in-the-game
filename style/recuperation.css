@@ -1,0 +1,24 @@
+section
+{
+	margin-bottom : 50px;
+}
+
+p
+{
+	color : #880e4f;
+	font-size : 34px;
+}
+
+form
+{
+	display : block;
+	width : 50%;
+	margin : auto;
+}
+
+.champ
+{
+	display : block;
+	margin : 20px;
+	text-align: left;
+}

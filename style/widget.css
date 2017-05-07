@@ -1,0 +1,179 @@
+/**************************************** BOUTONS *****************************************/
+
+.bouton
+{
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	background: #880E4F;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border : none;
+}
+
+.bouton:hover
+{
+	background : #e91e63;
+	text-decoration: none;
+	cursor : pointer;
+}
+
+
+/**************************************** EDITEURS *****************************************/
+
+.editText
+{
+	padding:3px;
+	border-width:2px;
+	border-color:#cccccc;
+	border-style:hidden;
+	font-size:19px;
+	color:#e91e62;
+	border-bottom: 1px solid #e91e62;
+} 
+
+.editText:focus
+{
+	outline:none;
+}
+
+
+/**************************************** TABLEAUX *****************************************/
+.liste
+{
+	padding : 10px 20px 10px 10px;
+	border : 2px solid #880e4f;
+	border-radius: 3px;
+	color : #e91e62;
+	font-size: 18px;
+	cursor : pointer;
+}
+
+
+.tableau
+{
+	display : inline-block;
+	margin : 20px;
+	padding : 0px;
+	box-shadow : 5px 5px 10px #202020;
+	border : 1px solid #880e4f;
+	border-radius : 5px;
+}
+
+.tableau caption
+{
+	font-weight : bold;
+	background-color : #202020;
+	font-size : 32px;
+	font-family: "Bad Script";
+	color : #880e4f;
+	border-top-left-radius : 5px;
+	border-top-right-radius : 5px;
+}
+
+.tableau tr:hover td
+{
+	background-color: #e91e62;
+}
+.tableau tr:nth-child(odd)
+{
+	background-color : #f2f2f2;
+}
+.tableau tr:nth-child(even)
+{
+	background-color : white;
+}
+
+.tableau td
+{
+	vertical-align : middle;
+	border : 1px solid #880e4f;
+	border-width : 0px 1px 1px 0px;
+	text-align : center;
+	padding : 15px;
+	font-size : 17px;
+	font-family : Arial;
+	color : #000000;
+}
+
+.tableau tr:first-child td
+{
+	background-color : #880e4f;
+	border : 0;
+	text-align : center;
+	font-size : 24px;
+	font-weight : bold;
+	font-family : "Bad Script";
+	color : white;
+}
+.tableau tr:first-child:hover td
+{
+	background-color : #880e4f;
+}
+.tableau tr:first-child td:first-child
+{
+	border-width:0px 0px 1px 0px;
+}
+.tableau tr:first-child td:last-child
+{
+	border-width:0px 0px 1px 1px;
+}
+
+.tableau tr:last-child td:first-child
+{
+	border-bottom-left-radius : 5px;
+}
+
+.tableau tr:last-child td:last-child
+{
+	border-bottom-right-radius : 5px;
+}
+
+
+/**************************************** RADIO BUTTON *****************************************/
+
+input[type=radio]
+{
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+input[type=radio] + .label-radio
+{
+	padding-left:36px;
+	height:31px; 
+	display:inline-block;
+	line-height:31px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:24px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio]:checked + .label-radio
+{
+	background-position: 0 -31px;
+}
+.label-radio
+{
+	background-image:url("images/icones/radio.png");
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

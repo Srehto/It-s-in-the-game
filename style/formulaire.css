@@ -1,0 +1,48 @@
+#formulaire_connexion
+{
+	display : inline-block;
+}
+
+h1
+{
+	margin : 0;
+	color : #880e4f;
+	font-size : 30px;
+}
+
+fieldset
+{
+	margin : 0;
+	padding : 0;
+	border : none;
+	text-align: center;
+}
+
+legend
+{
+	margin-bottom : 10px;
+	font-size : 36px;
+	color : rgb(136, 14, 79);
+}
+
+input
+{
+	display : block;
+	margin : 20px auto 20px auto;
+}
+
+#error_mess
+{
+	color : red;
+}
+
+#recapitulatif h2
+{
+	color : #880e4f;
+}
+
+#recapitulatif span
+{
+	display : block;
+	color : #e91e63;
+}

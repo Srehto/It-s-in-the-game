@@ -1,0 +1,14 @@
+#corps
+{
+	padding-bottom : 0;
+	background-image: url("images/fonds/fleurs.jpg");
+}
+
+#doc-jeux
+{
+	width : 500px;
+	margin : 100px auto 0 auto;
+	text-align : left;
+	color : white;
+	font-size : 18px;
+}

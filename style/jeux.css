@@ -1,0 +1,47 @@
+#corps
+{
+	padding: 250px 0 50px 0;
+	text-align: center;
+	background-image : url("images/fond_jeux.jpg");
+}
+
+#iframe
+{
+	width : 1155px;
+	height : 600px;
+	min-width : 600px;
+	padding : 0;
+	text-align : center;
+	border : none;
+}
+
+#liste_jeux
+{
+	position : fixed;
+	width : 140px;
+	max-height: 90%;
+	margin-left: 20px;
+	padding : 10px;
+	background-color : white;
+	border-radius : 0 5px 5px 0;
+	border : 2px solid #880e4f;
+	list-style-type : none;
+	overflow : auto;
+}
+
+#titre_liste_jeux
+{
+	padding-bottom : 26px;
+	border-bottom: 1px solid #880e4f;
+	font-size : 20px;
+	color : #e91e62;
+}
+
+#liste_jeux li
+{
+	margin : 5px 0 5px 0;
+	padding : 5px;
+	font-size : 20px;
+	color : #880e4f;
+	cursor : pointer;
+}
